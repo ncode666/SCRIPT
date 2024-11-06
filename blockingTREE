@@ -1,6 +1,3 @@
-/*  SQL Blocking Tree w/Cursor info
-Thanks SQL Server Expert JOHNNYBNO 
-*/
 IF OBJECT_ID('tempdb..#Blocks') IS NOT NULL
     DROP TABLE #Blocks
 SELECT   spid
